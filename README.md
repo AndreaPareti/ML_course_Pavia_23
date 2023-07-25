@@ -70,7 +70,7 @@ Prerequisites for the course include basic knowledge of GitHub, Colab and python
     * GRU for LHC jet tagging task: [`5.JetTaggingRNN.ipynb`](https://github.com/jngadiub/ML_course_Pavia_23/blob/main/neural-networks/5.JetTaggingRNN.ipynb)
     * Intro to PyTorch: [`pytorch_intro.ipynb`](https://github.com/jngadiub/ML_course_Pavia_23/blob/main/pytorch_basics/pytorch_intro.ipynb) and [`pytorch_NeuralNetworks.ipynb`](https://github.com/jngadiub/ML_course_Pavia_23/blob/main/pytorch_basics/pytorch_NeuralNetworks.ipynb)
     * Intro to PyTorch Geometric (PyG): [`6.IntroToPyG.ipynb`](https://github.com/jngadiub/ML_course_Pavia_23/blob/main/neural-networks/6.IntroToPyG.ipynb)
-    * Node classification with PyG on KarateClub dataset: [`7.KCNodeClassificationPyG.ipynb`](https://github.com/jngadiub/ML_course_Pavia_23/blob/main/neural-networks/7.KCNodeClassificationPyG.ipynb)
+    * Node classification with PyG on Cora citation dataset: [`7.KCNodeClassificationPyG.ipynb`](https://github.com/jngadiub/ML_course_Pavia_23/blob/main/neural-networks/7.KCNodeClassificationPyG.ipynb)
     * Graph classification with PyG on molecular prediction dataset: [`8.TUGraphClassification.ipynb`](https://github.com/jngadiub/ML_course_Pavia_23/blob/main/neural-networks/8.TUGraphClassification.ipynb)
     * Graph classification with PyG on LHC jet dataset: [`9.JetTaggingGCN.ipynb`](https://github.com/jngadiub/ML_course_Pavia_23/blob/main/neural-networks/9.JetTaggingGCN.ipynb)
 
@@ -84,3 +84,26 @@ Prerequisites for the course include basic knowledge of GitHub, Colab and python
 
  * Hands-on:
     * Transformer model for LHC jet tagging with tensorflow: [`10.JetTaggingTransformer.ipynb`](https://github.com/jngadiub/ML_course_Pavia_23/blob/main/neural-networks/10.JetTaggingTransformer.ipynb)
+
+ ### Day 5
+
+ * Lecture: Unsupervised Learning [slides: [6.UnsupervisedLearning.pdf](https://github.com/jngadiub/ML_course_Pavia_23/blob/main/slides/6.UnsupervisedLearning.pdf)]
+    * Unsupervised learning
+    * Autoencoders
+    * Generative Models
+    * VariationalAutoencoders
+    * Generative Adversarial Networks
+    * Anomaly detection
+
+ * Hands-on:
+    * Generate data with vanilla GAN: [`11.VanillaGAN_FMNIST.ipynb`](https://github.com/jngadiub/ML_course_Pavia_23/blob/main/neural-networks/11.VanillaGAN_FMNIST.ipynb)
+    * Generate data with VAE: [`12.VAE_FMNIST.ipynb`](https://github.com/jngadiub/ML_course_Pavia_23/blob/main/neural-networks/12.VAE_FMNIST.ipynb)
+    * Anomaly detection for LHC jets with AE [`13.JetAnomalyDetectionAE.ipynb`](https://github.com/jngadiub/ML_course_Pavia_23/blob/main/neural-networks/13.JetAnomalyDetectionAE.ipynb)
+    * Anomaly detection for LHC jets with VAE [`14.JetAnomalyDetectionVAE.ipynb`](https://github.com/jngadiub/ML_course_Pavia_23/blob/main/neural-networks/13.JetAnomalyDetectionVAE.ipynb)
+
+## Resources
+
+* Pattern Recognition and Machine Learning, Bishop (2006)
+* Deep Learning, Goodfellow et al. (2016) -- [`link`](https://www.deeplearningbook.org/)
+* Introduction to machine learning, Murray (2010) -- [`video lectures`](http://videolectures.net/bootcamp2010_murray_iml/)
+* Stanford ML courses -- [`link`](https://ai.stanford.edu/stanford-ai-courses/)
